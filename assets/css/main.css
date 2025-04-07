@@ -110,18 +110,18 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: solid 1px #e4e4e4;
-		color: inherit;
+		border-bottom: solid 1px #add8e6;
+		color: #add8e6;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #4acaa8 !important;
+			color: #7DD5E3 !important;
 		}
 
 	strong, b {
-		color: #777;
+		color: #add8e6;
 		font-weight: 700;
 	}
 
@@ -134,7 +134,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #777;
+		color: #add8e6;
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
@@ -1785,7 +1785,7 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		color: #4acaa8;
+		color: #add8e6;
 		font-size: 3.5em;
 	}
 
@@ -2402,7 +2402,7 @@ input, select, textarea {
 			}
 
 			ul.feature-icons li:before {
-				background: #4acaa8;
+				background: #add8e6;
 				border-radius: 100%;
 				color: #ffffff;
 				display: block;
@@ -2617,8 +2617,9 @@ input, select, textarea {
 		input[type="submit"].primary,
 		input[type="reset"].primary,
 		input[type="button"].primary,
+		/* button base colour */
 		.button.primary {
-			background-color: #4acaa8;
+			background-color: #add8e6;
 			color: #ffffff !important;
 		}
 
@@ -2626,14 +2627,14 @@ input, select, textarea {
 			input[type="reset"].primary:hover,
 			input[type="button"].primary:hover,
 			.button.primary:hover {
-				background-color: #5ed0b1;
+				background-color: #95D8E6;
 			}
 
 			input[type="submit"].primary:active,
 			input[type="reset"].primary:active,
 			input[type="button"].primary:active,
 			.button.primary:active {
-				background-color: #39c29d;
+				background-color: #88C5D1;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2700,7 +2701,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #4acaa8;
+		background: #add8e6;
 		color: #d2f2e9;
 		height: 100%;
 		overflow-y: auto;
@@ -2749,9 +2750,9 @@ input, select, textarea {
 				font-size: 1.75em;
 				margin: 0;
 			}
-
+			/* paragraph under my name on the RHS header */
 			#header > header p {
-				color: #d2f2e9;
+				color: #fff;
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -2771,8 +2772,9 @@ input, select, textarea {
 				margin: 0;
 			}
 
+				/* icons at the bottom of the header (facebook, twitter etc.) */
 				#header > footer .icons li a {
-					color: #b7eadc;
+					color: #fff;
 				}
 
 		#header > nav {
@@ -2789,7 +2791,7 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #5ccfb1;
+					border-top: solid 2px #ACC5E6;
 					display: block;
 					padding: 0;
 				}
@@ -2805,10 +2807,10 @@ input, select, textarea {
 						padding: 0.85em 0;
 						text-decoration: none;
 					}
-
+						/* text colour for selected nav bar */
 						#header > nav ul li a.active {
 							background: #fff;
-							color: #4acaa8 !important;
+							color: #add8e6 !important;
 						}
 
 					#header > nav ul li:first-child {
