@@ -110,8 +110,8 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: solid 1px #add8e6;
-		color: #add8e6;
+		border-bottom: solid 1px #7798AB;
+		color: #7798AB;
 		text-decoration: none;
 	}
 
@@ -121,7 +121,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #add8e6;
+		color: #7798AB;
 		font-weight: 700;
 	}
 
@@ -134,7 +134,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #add8e6;
+		color: #7798AB;
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
@@ -1785,7 +1785,7 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		color: #add8e6;
+		color: #7798AB;
 		font-size: 3.5em;
 	}
 
@@ -1848,7 +1848,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #4acaa8;
+			border-color: #7798AB;
 		}
 
 	select {
@@ -1953,7 +1953,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #add8e6;
+			border-color: #7798AB;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2402,7 +2402,7 @@ input, select, textarea {
 			}
 
 			ul.feature-icons li:before {
-				background: #add8e6;
+				background: #7798AB;
 				border-radius: 100%;
 				color: #ffffff;
 				display: block;
@@ -2619,7 +2619,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		/* button base colour */
 		.button.primary {
-			background-color: #add8e6;
+			background-color: #7798AB;
 			color: #ffffff !important;
 		}
 
@@ -2701,7 +2701,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #add8e6;
+		background: #7798AB;
 		color: #d2f2e9;
 		height: 100%;
 		overflow-y: auto;
@@ -2810,7 +2810,7 @@ input, select, textarea {
 						/* text colour for selected nav bar */
 						#header > nav ul li a.active {
 							background: #fff;
-							color: #add8e6 !important;
+							color: #7798AB !important;
 						}
 
 					#header > nav ul li:first-child {
@@ -3078,7 +3078,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: #4acaa8;
+						background: #7798AB;
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;
